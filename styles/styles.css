@@ -45,6 +45,12 @@ li {
 .prc-nav li a {
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 600;
+    color: #5F5F5F;
+}
+
+.prc-nav li a:hover {
+    color: #03045EFC;
 }
 
 button {
