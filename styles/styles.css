@@ -165,3 +165,10 @@ button {
     color: black;
     transition: .3s;
 }
+.container-topdeal-product{
+    width: 95%;
+}
+.container-item-product{
+    display: flex;
+    justify-content: space-between;
+}
