@@ -47,10 +47,28 @@ li {
     font-size: 1rem;
     font-weight: 600;
     color: #5F5F5F;
+    display: inline-block;
+    width: 100%;
+    position: relative;
 }
 
 .prc-nav li a:hover {
     color: #03045EFC;
+}
+
+.prc-nav li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: #03045EFC;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: all .4s ease;
+}
+
+.prc-nav li a:hover::after {
+    width: 100%;
 }
 
 button {
