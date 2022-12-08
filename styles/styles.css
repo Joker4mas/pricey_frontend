@@ -97,6 +97,7 @@ button {
 
 #hero-section{
    height: 50vh;
+   /* padding: 6rem; */
    background-image: url('/images/hero-image-bg.png');
    background-size: cover;
    background-repeat: no-repeat;
@@ -119,11 +120,12 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 6rem;
     /* margin: 5rem auto; */
 }
 .search-form h1{
       color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     font-family: Poppins;
     text-align: center;
@@ -134,18 +136,32 @@ button {
 
 .search-bar input{
     flex: 1;
-    width: 40%;
-    height: 40px;
+    width: 45%;
+    height: 50px;
     border:1px solid gray;
-    border-radius: 4px;
+    border-radius: 8px;
     background: white;
     outline: none;
     align-items: center;
 }
-.search-bar button{
+.fa-search{
+    position: relative;
+    color:rgb(207, 201, 201);
+    font-size: 1.3rem;
+    right: -35px;
+    z-index: 1;
+} 
+#search-btn {
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
-    padding: 8px;
+    padding: 6px;
     border: none;
     outline: none;
     color: white;
+    margin-left: -80px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+#search-btn:hover{
+    color: black;
+    transition: .3s;
 }
