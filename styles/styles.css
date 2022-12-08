@@ -5,6 +5,7 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    box-sizing: border-box;
 
 }
 
@@ -14,11 +15,8 @@ li {
     text-decoration: none;
 }
 
-body {
-    box-sizing: border-box;
-}
 
-.header-container {
+.prc-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
