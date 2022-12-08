@@ -15,21 +15,27 @@ li {
     text-decoration: none;
 }
 
+.prc-header {
+    width: 100%;
+}
 
 .prc-container {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logoimg {
-    width: 25%;
+.prc-logo img {
+    width: 10rem;
     padding: 2rem 0 0 2rem;
     margin: 0;
 
 }
 
-.nav {
+.prc-nav {
+    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
