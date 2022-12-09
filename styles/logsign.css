@@ -4,8 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* width: 100%; */
 }
 body{
+    min-height: 100%;
+    max-height: 100%;
     background-color: black;
 }
 main{
@@ -104,9 +107,19 @@ main{
     line-height: 15px;
     color: #1E1E1E;
 }
+.login-with-rec a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 15px;
+    color: #1E1E1E;
+}
 .btn{
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
     border-radius: 4.84534px;
     width: 100%;
@@ -115,6 +128,35 @@ main{
     color: white;
 
 }
+.btn-rec{
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border-radius: 4.84534px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    margin-bottom:5rem ;
+
+}
+.mail-rec input{
+     margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 8px;
+}
+.btn-sign{
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(180deg, #0077B6 0%, #00B4D8 100%);
+    border-radius: 4.84534px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+
+}
+
 .btn a{
     color: white;
     text-decoration: none;
@@ -149,7 +191,8 @@ main{
 /* styling for the signIn page*/
 .main_flex_conatainer-signup{
     width: 70%;
-    height: 95vh;
+    height: 100%;
+    /* padding: 40rem; */
     display:flex;
     justify-content: center;
     align-items:center;
@@ -171,16 +214,16 @@ main{
 
 }
 #orOpt{
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
 }
-
-
-
-
-
+#orOpt img{
+    margin-top: 7px;
+}
 
 #checkbox{
-    margin:10px 0px;
+    margin:5px 0px;
 }
 
 
